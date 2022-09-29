@@ -1,0 +1,13 @@
+@import 'components/base/styles/variables.scss';
+
+.fs-web-application {
+  .side-bar {
+    background: $white;
+    border-bottom-left-radius: 48px;
+    border-top-left-radius: 48px;
+    box-shadow: 0 8px 16px 8px rgba(0, 0, 0, 0.04);
+    flex-grow: 1;
+    flex-basis: 20%;
+    padding: 48px;
+  }
+}

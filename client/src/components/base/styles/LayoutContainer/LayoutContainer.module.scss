@@ -1,0 +1,9 @@
+.fs-web-application {
+  .layout-container {
+    margin-left: 0;
+
+    &--flex {
+      display: flex;
+    }
+  }
+}

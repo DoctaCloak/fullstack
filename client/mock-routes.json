@@ -1,0 +1,8 @@
+[
+  {
+    "endpoint": "/api/users/getUserContactPreferences",
+    "responses": {
+      "GET": "./mock-services/users/getUserContactPreferences/userContactPreferences.json"
+    }
+  }
+]

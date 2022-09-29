@@ -1,0 +1,45 @@
+@import 'components/base/styles/variables';
+
+.fs-web-application {
+  .dashboard-page {
+    background: green;
+    border-radius: 16px;
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 80%;
+    flex-direction: column;
+    min-height: 400px;
+    margin: 80px;
+    padding: 24px;
+    position: relative;
+
+    &--light-mode {
+      background: $white;
+      box-shadow: 0 8px 16px 16px rgba(0, 0, 0, 0.08);
+    }
+
+    &--preferred-contact-method-wrapper {
+      display: flex;
+      flex-direction: column;
+
+      span {
+        font-weight: 800;
+        margin-top: 12px;
+      }
+    }
+
+    &--calendar {
+      position: absolute;
+      right: 48px;
+      top: 48px;
+
+      div:first-child() {
+        width: 500px;
+      }
+    }
+
+    &--no-appointments-returned {
+      max-width: 400px;
+    }
+  }
+}

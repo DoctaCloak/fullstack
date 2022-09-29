@@ -1,0 +1,13 @@
+@import 'components/base/styles/variables';
+
+.fs-web-application {
+  .theme-provider {
+    &--dark-mode {
+      background: $dark-mode-background;
+    }
+
+    &--light-mode {
+      background: $light-mode-background;
+    }
+  }
+}

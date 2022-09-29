@@ -1,0 +1,12 @@
+@import '../styles/variables.scss';
+
+html,
+body {
+  background-color: $dark-mode-background !important;
+  height: 100%;
+  width: 100%;
+}
+
+.fs-web-application {
+  padding: 80px;
+}
